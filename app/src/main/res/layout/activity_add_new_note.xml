@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3F51B5"
+    tools:context=".AddNewNote">
+
+    <EditText
+        android:id="@+id/editName"
+        android:layout_width="345dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="57dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginRight="37dp"
+        android:layout_marginBottom="2dp"
+        android:autofillHints=""
+        android:background="#F2F3EF"
+        android:ems="10"
+        android:hint="@string/note_name"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/editDescription"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editDescription"
+        android:layout_width="347dp"
+        android:layout_height="550dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginBottom="44dp"
+        android:autofillHints=""
+        android:background="#F2F3EF"
+        android:ems="10"
+        android:gravity="start"
+        android:hint="@string/note_description"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editName" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="file_name">Note.json</string>
+    <string name="app_name">NotesDraft</string>
+    <string name="add">Add</string>
+    <string name="information">info</string>
+    <string name="timestamp">timestamp</string>
+    <string name="version_1_0">Version 1.0</string>
+    <string name="_2021_will_om_feld">© 2021, Will Om-Feld</string>
+    <string name="android_notes">Android Notes</string>
+    <string name="name">Name</string>
+    <string name="note_name">Note name...</string>
+    <string name="note_description">Note Description...</string>
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/infoScreen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/info_background"
+    tools:context=".Info">
+
+
+    <TextView
+        android:id="@+id/version"
+        android:layout_width="135dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="156dp"
+        android:text="@string/version_1_0"
+        android:textColor="#020202"
+        android:textColorLink="#D7EADE"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/cclabel"
+        android:layout_width="241dp"
+        android:layout_height="86dp"
+        android:layout_marginTop="416dp"
+        android:text="@string/_2021_will_om_feld"
+        android:textColor="#000000"
+        android:textColorLink="#070707"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/androidnotestitle"
+        android:layout_width="303dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="272dp"
+        android:fontFamily="casual"
+        android:text="@string/android_notes"
+        android:textColor="#070000"
+        android:textColorLink="#D7EADE"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
